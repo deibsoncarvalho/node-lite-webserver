@@ -1,0 +1,19 @@
+{
+  "name": "staticwebserver",
+  "version": "1.0.0",
+  "description": "Static Web Server for Test",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --watch public",
+    "debug": "nodemon --inspect ./server.js"
+  },
+  "keywords": [
+    "webserver"
+  ],
+  "author": "Deibson Carvalho",
+  "license": "MIT",
+  "dependencies": {
+    "url-parse": "^1.5.1",
+    "nodemon": "^2.0.7"
+  }
+}
