@@ -2,7 +2,7 @@
     "rootFolder": "./public",
     "defaultIndex": "/index.html",
     "hostname": "localhost",
-    "port": "8080",
+    "port": "80",
     "types" : {
         "htm": "text/html",
         "html": "text/html",
@@ -11,6 +11,10 @@
         "png": "image/png",
         "css": "text/css",
         "js": "text/javascript",
-        "json": "application/json"
+        "json": "application/json",
+        "ico": "image/x-icon",
+        "webp": "image/webp",
+        "svg": "image/svg+xml",
+        "xml": "text/xml"
     }
 }
